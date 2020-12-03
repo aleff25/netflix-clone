@@ -1,9 +1,13 @@
 import React from 'react';
 import JumbotronContainer from './containers/Jumbotron';
+import FooterContainer from './containers/Footer';
 
 function App() {
   return (
-    <JumbotronContainer />
+    <>
+      <JumbotronContainer />
+      <FooterContainer />
+    </>
   );
 }
 

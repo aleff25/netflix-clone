@@ -32,4 +32,8 @@ Footer.Text = function FooterText({ children, ...rest }) {
   return <Text {...rest}>{ children }</Text>;
 };
 
+Footer.Break = function FooterBreak({ children, ...rest }) {
+  return <Break {...rest}>{ children }</Break>;
+};
+
 export default Footer;
