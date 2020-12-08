@@ -13,7 +13,7 @@ export const Container = styled.div`
 `;
 
 export const Column = styled.div`
-  display: dlex;
+  display: flex;
   flex-direction: column;
   text-align: left;
 `;
